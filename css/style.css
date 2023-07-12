@@ -16,6 +16,10 @@ nav form {
   background-color: #061e34;
 }
 
+#sidebar i {
+  margin: 1.5rem;
+}
+
 /* HEADER */
 
 #header {
