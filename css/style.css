@@ -1,0 +1,23 @@
+/* SIDEBAR */
+
+#sidebar {
+  width: 100px;
+  height: 100vh;
+  background-color: #061e34;
+}
+
+/* HEADER */
+
+#header {
+  width: calc(100vw - 100px);
+  height: 250px;
+  background-color: #1c71e8;
+}
+
+/* MENU */
+
+#menu {
+  width: calc(100vw - 100px);
+  height: calc(100vh - 250px);
+  background-color: red;
+}
