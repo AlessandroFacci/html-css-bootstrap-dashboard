@@ -8,6 +8,11 @@ nav form {
   width: 70px;
 }
 
+.navbar i.fa-bell {
+  color: #ff8f00;
+  margin: 0.5rem;
+}
+
 /* SIDEBAR */
 
 #sidebar {
