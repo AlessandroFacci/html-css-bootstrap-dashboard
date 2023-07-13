@@ -8,9 +8,22 @@ nav form {
   width: 70px;
 }
 
+.navbar-collapse {
+  flex-basis: 0;
+}
+
+ul.navbar-nav {
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+ul.navbar-nav li {
+  margin: 0.7rem;
+}
+
 .navbar i.fa-bell {
   color: #ff8f00;
-  margin: 0.5rem;
 }
 
 /* SIDEBAR */
