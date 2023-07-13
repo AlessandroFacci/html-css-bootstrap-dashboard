@@ -102,7 +102,42 @@
         </div>
         <div class="overflow-auto">
           <!-- header -->
-          <header id="header"></header>
+          <header id="header" class="text-white">
+            <div class="container-fluid d-flex flex-column flex-md-row-reverse justify-content-between">
+              <div class="mt-4">
+                <span>Nuovo studente</span>
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus fa-xl"></i></button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    ...
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex flex-column order-md-1 mt-md-4">
+                <div>
+                  <span class="boolean">Boolean</span>
+                  <span class="badge rounded-pill">Primary</span>
+                </div>
+                <div>
+                  <span class="badge rounded-pill">3 app</span>
+                  <i class="fa-solid fa-angles-right"></i>
+                  <span class="badge rounded-pill">+</span>
+                  <span class="badge rounded-pill d-sm-none d-xl-inline">Boolean mobile app</span>
+                  <span class="badge rounded-pill d-sm-none d-xl-inline">Boolean web app</span>
+                  <span class="badge rounded-pill d-sm-none d-xl-inline">Boolean blog app</span>
+                </div>
+              </div>
+              <div class="mt-md-4">
+                <span>Studenti online negli ultimi 30 minuti</span>
+                <span class="online">125</span>
+              </div>
+            </div>
+          </header>
           <!-- menu -->
           <div id="menu">
             <div class="container-fluid">

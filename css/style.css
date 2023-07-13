@@ -54,6 +54,29 @@ ul.navbar-nav li {
   background-color: #1c71e8;
 }
 
+#header .container-fluid {
+  height: 250px;
+}
+
+#header button i {
+  border: 1px solid white;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+#header .boolean {
+  font-size: 2rem;
+}
+
+#header .rounded-pill {
+  background-color: #165bba;
+  font-weight: normal;
+}
+
+#header .online {
+  font-size: 2rem;
+}
+
 /* MENU */
 
 #menu {
