@@ -77,6 +77,13 @@ ul.navbar-nav li {
   font-size: 2rem;
 }
 
+/* offcanvas */
+
+.offcanvas.offcanvas-end {
+  width: 100%;
+  max-width: 800px;
+}
+
 /* MENU */
 
 #menu {
