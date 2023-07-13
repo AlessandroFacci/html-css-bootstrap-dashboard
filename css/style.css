@@ -35,7 +35,15 @@ ul.navbar-nav li {
 }
 
 #sidebar i {
-  margin: 1.5rem;
+  margin: 1.5rem 1rem;
+}
+
+#sidebar span {
+  margin: 1rem 0;
+}
+
+#sidebar .container {
+  height: 100vh;
 }
 
 /* HEADER */
@@ -55,4 +63,18 @@ ul.navbar-nav li {
 
 td img {
   width: 25px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 1200px) {
+  #sidebar {
+    width: 200px;
+  }
+  #header {
+    width: calc(100vw - 200px);
+  }
+  #menu {
+    width: calc(100vw - 200px);
+  }
 }
