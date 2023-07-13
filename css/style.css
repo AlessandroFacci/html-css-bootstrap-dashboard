@@ -4,7 +4,7 @@ nav form {
   width: 100%;
 }
 
-.navbar-brand img {
+.navbar-brand img:first-child {
   width: 70px;
 }
 
